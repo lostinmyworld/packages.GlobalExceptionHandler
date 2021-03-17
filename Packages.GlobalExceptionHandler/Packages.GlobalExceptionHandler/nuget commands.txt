@@ -1,0 +1,2 @@
+﻿dotnet nuget push Packages.GlobalExceptionHandler.0.0.1.nupkg --api-key #API_KEY# --source https://api.nuget.org/v3/index.json
+nuget push bin/Release/pkats.Packages.CustomErrors.0.0.2.nupkg --api-key #GITHUB_PAT# --source github

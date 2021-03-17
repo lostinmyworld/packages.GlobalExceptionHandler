@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>0.0.2</Version>
+    <Authors>Panagiotis Katsampiris</Authors>
+    <Description>Global ExceptionHandler to use custom errors and Serilog logging the Exceptions although returning custom error's details as human readable problem details</Description>
+    <Copyright>2021</Copyright>
+    <RepositoryUrl>https://github.com/lostinmyworld/packages.GlobalExceptionHandler</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+    <PackageReference Include="packages.Api.Responses" Version="0.0.2" />
+    <PackageReference Include="pkats.Packages.CustomErrors" Version="0.0.3" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+  </ItemGroup>
+
+</Project>
