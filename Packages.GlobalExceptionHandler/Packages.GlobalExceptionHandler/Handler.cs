@@ -21,7 +21,6 @@ namespace Packages.GlobalExceptionHandler
 
         public static IApplicationBuilder UseCustomErrors(this IApplicationBuilder app, IHostEnvironment environment)
         {
-
             _responseKey = Guid.NewGuid();
 
             app.Use(WriteResponse);
